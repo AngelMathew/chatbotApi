@@ -44,10 +44,18 @@ A post endpoint is defined to receive questions in the request body. The questio
 ### Finally, return the response from the model to the user through a response
 <img width="899" alt="Screenshot 2024-06-03 at 6 11 55 PM" src="https://github.com/AngelMathew/chatbotApi/assets/30999892/a499ec5a-0b00-47a9-8bc3-2ae78df6c0cf">
 
+### Install Dependencies
+`npm i supabase --save-dev`
+
+### Connect to supabase
+
 ```
-npm i supabase --save-dev
 npx supabase init
 npx supabase login
 npx supabase link --project-ref <subase url>
-npx supabase functions deploy ask-custom-data
 ```
+### Deploy the endpoint
+`npx supabase functions deploy ask-custom-data`
+
+### Development Server
+`node server.js`
