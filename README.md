@@ -38,11 +38,12 @@ A post endpoint is defined to receive questions in the request body. The questio
      model: "gpt-4",
     })
 ```
+
 <br>
 <br>
 
 ### Finally, return the response from the model to the user through a response
-<img width="899" alt="Screenshot 2024-06-03 at 6 11 55 PM" src="https://github.com/AngelMathew/chatbotApi/assets/30999892/a499ec5a-0b00-47a9-8bc3-2ae78df6c0cf">
+<img width="899" alt="336244456-a499ec5a-0b00-47a9-8bc3-2ae78df6c0cf" src="https://github.com/user-attachments/assets/bf451763-a802-467a-a76e-3ae294430a84" />
 
 ### Install Dependencies
 `npm i supabase --save-dev`
